@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | >Mental Health App</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="icon" href="">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- my-styles -->
+    <link rel="stylesheet" href="./styles/myStyle/myBoots-nav.css">
+
+    <style>
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        h1{
+            font-weight:100; 
+            padding:20px 10px;
+            text-align: center;
+        }
+
+
+
+        main{
+            height:70vh; 
+        }
+
+        main h3{
+            text-align: center;
+            padding:10px;
+        }
+
+        main .bean{
+            background-color: green;
+            padding: 5px;
+            width:100px;
+            height:40px; 
+
+            margin:20px; 
+            border-radius:20px; 
+        }
+
+        main .row{
+            width:fit-content; 
+        }
+
+        main .container{
+            width:fit-content; 
+        }
+
+        footer{
+            min-height:30vh; 
+            padding:20px 0 0 0; 
+            background-color: black;
+            color:white; 
+        }
+
+        footer #footer-lower{
+            padding:5px; 
+            background-color: salmon;
+            color:black; 
+        }
+        #footer-lower p{
+            text-align: center;
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mental Health App</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-right">
+              <!-- <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign up</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <!-- <h1>Get the help you need</h1> -->
+    </header>    
+
+    <main class="center">
+        <div>
+            <h1>Get the help you need</h1>
+
+            <h3>Pick a topic to explore</h3>
+
+            <div class="center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 bean"></div>
+                        <div class="col-md-3 bean"></div>
+                        <div class="col-md-3 bean"></div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-md-3 bean"></div>
+                        <div class="col-md-3 bean"></div>
+                        <div class="col-md-3 bean"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <!-- FOOTER -->
+     <footer>
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col-md-4 mb-5">
+                <h2>Header</h2>
+
+                One of three columns
+                olumns build on the grid’s flexbox architecture. 
+                Flexbox means we have options for changing individual 
+                columns and 
+                modifying groups of columns at the row level. 
+                You choose how columns grow, shrink, or otherwise change.
+              </div>
+
+              <div class="col-md-4 mb-5">
+                <h2>Header</h2>
+
+                One of three columns
+                olumns build on the grid’s flexbox architecture. 
+                Flexbox means we have options for changing individual 
+                columns and 
+                modifying groups of columns at the row level. 
+                You choose how columns grow, shrink, or otherwise change.
+              </div>
+              
+              <div class="col-md-4 mb-5">
+                <h2>Header</h2>
+
+                One of three columns
+                olumns build on the grid’s flexbox architecture. 
+                Flexbox means we have options for changing individual 
+                columns and 
+                modifying groups of columns at the row level. 
+                You choose how columns grow, shrink, or otherwise change.
+              </div>
+            </div>
+        </div>
+
+        <div id="footer-lower">
+            <p>Copyright &copy; 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

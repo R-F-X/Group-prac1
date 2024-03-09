@@ -1,0 +1,104 @@
+/* 
+BS NAVBAR 
+started: 31.01.24
+updated: 15.02.24
+*/
+
+:root{
+    --nav-item-color:white; 
+    --nav-bg-color:salmon;
+}
+/* ================================================== */
+
+/* NAVBAR TYPE1 */
+/* .fixed-top{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100; 
+} */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index:100; 
+    background-color: var(--nav-bg-color)!important;
+    padding:10px; 
+}
+/* ------------------------------ */
+
+.dropdown-menu{
+    background-color: var(--nav-bg-color);
+    padding:10px; 
+    margin:10px 0 !important;
+    /* border:1px solid black; */
+}
+/* ------------------------------ */
+
+/* logo link */
+.navbar-brand{
+    color:var(--nav-item-color);
+}
+.navbar-brand:focus, 
+.navbar-brand:hover {
+    color:var(--nav-item-color);
+}
+/* ------------------------------ */
+
+/* item links */
+.navbar-nav a {
+    text-decoration: none;
+    padding: 10px;
+    width: fit-content;
+    color:var(--nav-item-color);
+
+    font-size: 16px;
+    font-weight: 100;
+   
+    transition: 400ms ease-in;
+}
+.navbar-nav a:hover, 
+.navbar-nav a:focus {
+    color:var(--nav-item-color);
+    background-color: black;
+}
+/* ------------------------------ */
+
+/* burger btn */
+.navbar-toggler {
+    background-color:var(--nav-bg-color);
+    border: none;
+    transition: 500ms ease-out;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color:var(--nav-item-color);
+    color: black;
+}
+/* ------------------------------ */
+/* ================================================== */
+
+
+/* NAVBAR TYPE2 */
+/* off-canvas navbar */
+.offcanvas{
+    background-color: var(--nav-bg-color);
+    padding:10px; 
+}
+.offcanvas-body {
+    padding: 10px 0;
+}
+/* ------------------------------ */
+
+/* #offcanvasNavbarLabel */
+/* or */
+.offcanvas-title{
+    font-weight: 100;
+    padding:10px;
+    font-size: 25px;
+    color: black;
+}
+
+/* ------------------------------ */
+/* ================================================== */
