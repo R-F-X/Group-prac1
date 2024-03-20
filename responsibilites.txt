@@ -18,7 +18,7 @@ complete around 24.03.24
 > person2	- index.html (home)
 > person3	- login.html
 > person4	- signup.html
-> person5	- about.html
+> Caitlin Malan 	- about.html
 > person6	- documentation (docs, screenshots) + features page 
 ---
 
